@@ -1,0 +1,130 @@
+html * {
+    font-family: 'Roboto';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* ~~~~~~~~~~ header part of the website ~~~~~~~~~~~ */
+.header{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 2px 60px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap:13px;
+}
+li {
+    padding: 8px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+/* ~~~~~~~~~~ body part of the website ~~~~~~~~~~~ */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    /* flex: 0; */
+    
+}
+
+.leftpart{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    align-self: flex-start;
+    font-family: 'Roboto' !important;
+}
+.c-one{
+    background-color: #1F2937;
+    /* align-self: flex-start; */
+    font-family: 'Roboto' !important;
+}
+.text-head{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:900;
+    width: 420px;
+    font-family: 'Roboto' !important;
+}
+.text-sub{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px 40px 10px 0;
+    font-family: 'Roboto' !important;
+    
+}
+button{
+    width: 80px;
+    border-radius: 6px;
+    padding: 3px;
+   
+}
+.button-top {
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+/*  ~~~~~~~~~~~~ part 2 ~~~~~~~~~~~*/
+.c-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10px;
+    padding: 10px;
+}
+.clients-header{
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 800;
+}
+.testimonial-icon {
+    display: flex;
+    gap: 35px;
+    padding: 10px;
+    align-content: center;   
+}
+
+.icon {
+    width: 200px;
+    border:#9ac1ff solid 2px;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    flex: 0 1 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
